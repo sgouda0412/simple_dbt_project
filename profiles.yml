@@ -1,6 +1,4 @@
 ---
-config:
-  send_anonymous_usage_stats: false
 sde_dbt_tutorial:
   target: dev
   outputs:
