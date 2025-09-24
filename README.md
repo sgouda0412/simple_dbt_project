@@ -54,7 +54,7 @@ Press Ctrl + c to stop the document server.
 
 # Create snapshots
 
-Let's do some testing, Insert some data into source customer table(in our case the new_customer data is appended into customers.csv), to demonstrate dbt snapshots. Since we are using duckdb and the base table is essentially data at [customer.csv](./raw_data/customer.csv) we have to append new data to this customer.csv file as shown below:
+Let's do some development and testing, Insert some data into source customer table(in our case the new_customer data is appended into customers.csv), to demonstrate dbt snapshots. Since we are using duckdb and the base table is essentially data at [customer.csv](./raw_data/customer.csv) we have to append new data to this customer.csv file as shown below:
 
 ```bash
 # Remove header from ./raw_data/customers_new.csv
