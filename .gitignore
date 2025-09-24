@@ -13,3 +13,4 @@ venv/
 
 *.duckdb
 duckdb
+pandas
