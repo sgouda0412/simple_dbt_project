@@ -9,6 +9,8 @@ edr_target/
 venv/
 myenv/
 .venv/
+venv/
 
 *.duckdb
 duckdb
+pandas
